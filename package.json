@@ -1,0 +1,78 @@
+{
+  "name": "cspu",
+  "version": "0.1.0",
+  "description": "Code Sharing Platform UI",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "@johmun/vue-tags-input": "^2.1.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "core-js": "^2.6.5",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "popper.js": "^1.15.0",
+    "portal-vue": "^2.1.4",
+    "sweetalert": "^2.1.2",
+    "vue": "^2.6.10",
+    "vue-prism-editor": "^1.2.2",
+    "vue-prismjs": "^1.2.0",
+    "vue-router": "^3.0.6",
+    "vue-snotify": "^3.2.1",
+    "vue-tippy": "^4.4.0",
+    "vuex": "^3.1.1",
+    "vuex-persistedstate": "^2.7.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-stage-2": "latest",
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.12.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-prismjs": "^2.0.1",
+    "babel-preset-stage-2": "latest",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "pm2": "^3.5.0",
+    "sass-loader": "^7.3.1",
+    "vue-avatar": "^2.1.8",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
