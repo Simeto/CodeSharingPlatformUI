@@ -7,13 +7,6 @@ export default {
             baseURL: 'http://localhost:5050'
         })
 
-        /**
-         * error handling
-         */
-        const onError = (err) => {
-            console.error('API HTTP Error', err)
-        };
-
         const request = async (method, url, data, headers) => {
             try{
                 const response = await axios.request({ method, url, data, headers})

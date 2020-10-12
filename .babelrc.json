@@ -1,7 +1,6 @@
 {
   "presets": [
     "@vue/app", 
-    "@babel/preset-env",
     "stage-2"
   ],
   "plugins": [
