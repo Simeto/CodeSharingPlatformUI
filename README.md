@@ -19,7 +19,7 @@ A simple code-sharing platform that has two types of users - members and admins
 Include:
   1. Authentication and Authorization
     - registration and login forms
-    - Authentication on the Client and the Server which ensures that a user has logged in
+    - Authentication on the Client and the Server side which ensures that a user has logged in
       before being able to perform actions requiring authentication
     - Authorization on the Server which can protect the certain API endpoints
       # server side - https://github.com/Simeto/CodeSharingPlatformServer
@@ -29,6 +29,9 @@ Include:
       - Can post code snippets.
       - Can like a snippet.
       - Can browse their personal snippets.
+      - Can edit their own data like password , nickname, first name, etc.
+      - Can add/edit an avatar.
+      - Can delete their own profile
     2.2 Admins
       - Can browse all snippets.
       - Delete inappropriate ones if needed.
